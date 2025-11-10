@@ -3,8 +3,8 @@ import pandas as pd
 import pgeocode
 import numpy as np
 
-OPEN_DATA_KEY = 'REMOVED'
-CENSUS_KEY = 'REMOVED'
+OPEN_DATA_KEY = ''
+CENSUS_KEY = ''
 
 # ----- RAT INSPECTION PORTAL (RIP) DATA ----- #
 dataset_id = "p937-wjvj"
@@ -103,4 +103,5 @@ regression_df['has_dropoff'] = regression_df['zip_code'].isin(zips_with_dropoffs
 
 
 print(regression_df.head())
-
+print(len(regression_df))
+regression_df.to_csv('project_data.csv', index=False)
