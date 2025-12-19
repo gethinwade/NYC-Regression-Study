@@ -175,7 +175,13 @@ mean(vif_values)
 
 
 # ----- ANOVA ----- #
-anova(log_model, centered_log_int_model)
+pop_model <- lm(log_inspections ~ pop, data = df)
+summary(pop_model)
+anova(pop_model, centered_log_int_model)
+
+model_with_parks <- lm(log_inspections ~ pop_c*baskets_c + pop_c*garage + pop_c*dropoff + park_acres, data = df)
+summary(model_with_parks)
+anova(centered_log_int_model, model_with_parks)
 
 
 # ----- Residual Analysis for Final Model ----- #
