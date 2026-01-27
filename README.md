@@ -4,10 +4,10 @@ This project applies multiple linear regression techniques to analyze NYC rat in
 
 
 ## Project Structure
-- `Regression_Analysis.pdf` - Complete regression analysis with code, outputs, and interpretation
-- `rat_data.csv` - Comprehensive dataset used for analysis
 - `data_pull.py` - Python script for pulling data from NYC Open Data portal and the Census Bureau
+- `project_data.csv` - Comprehensive dataset used for analysis
 - `regression_analysis.R` - R code implementing the full regression workflow
+- `regression_analysis.pdf` - Complete regression analysis with code and outputs
 
 
 ## Methodology
