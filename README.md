@@ -14,12 +14,12 @@ This project applies multiple linear regression techniques to analyze NYC rat in
 
 The analysis progresses through several key stages:
 
-1. **Exploratory Data Analysis** - Initial examination of variables and relationships
-2. **Model Building** - Multiple linear regression with various neighborhood predictors
-3. **Diagnostic Testing** - Residual analysis and Cook's Distance to identify influential points
-4. **Transformation** - Box-Cox transformation to address model assumptions
-5. **Advanced Techniques** - Interaction effects and k-fold cross-validation for model validation
-6. **Model Refinement** - Iterative improvement based on diagnostic results
+- **Exploratory Data Analysis**: Initial examination of variables and relationships
+- **Model Building**: Multiple linear regression with various neighborhood predictors
+- **Diagnostic Testing**: Residual analysis and Cook's Distance to identify influential points
+- **Transformation**: Box-Cox transformation to address model assumptions
+- **Advanced Techniques**: Interaction effects and k-fold cross-validation for model validation
+- **Model Refinement**: Iterative improvement based on diagnostic results
 
 
 ## Key Features
@@ -33,9 +33,9 @@ The analysis progresses through several key stages:
 
 ## Technologies
 
-- **R** - Primary statistical analysis and modeling
-- **Python** - Data acquisition and preprocessing
-- **NYC Open Data API** - Primary data source
+- **Python**: Data acquisition and preprocessing
+- **R**: Primary statistical analysis and modeling
+- **NYC Open Data API**: Primary data source
 
 ## Results
 
